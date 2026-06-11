@@ -1,71 +1,126 @@
-# AI Success Lab Bangla
+# Bangla AI Academy
 
-AI Success Lab Bangla helps Bangla speaking learners use AI for better exam preparation, career readiness, freelancing, English communication, portfolio building, and income growth.
+Bangla AI Academy is a free open source Bangla AI education initiative by Enamul Haque. It helps Bangla speaking learners use AI in practical ways for study, career preparation, freelancing, English learning, portfolio building, and income skill development.
 
-## Project overview
+Repository name: `ai-success-lab-bangla`
 
-Version 1 is a static, GitHub Pages-ready landing page built with only HTML, CSS, and JavaScript. The interface is primarily in Bangla and introduces the platform, AI assistance language selection, outcome-based goals, and core learning and career categories.
+The visible product name is now **Bangla AI Academy**.
+
+## Project Overview
+
+Bangla AI Academy is a static GitHub Pages website built with HTML, CSS, and JavaScript. The platform is designed for Bangla speaking learners who want to use AI confidently without needing advanced technical knowledge.
+
+The goal is simple:
+
+> এআই শেখা নয়, এআইকে কাজে লাগানো
 
 ## Purpose
 
-The purpose of AI Success Lab Bangla is to help Bangla speaking learners around the world use AI more confidently for education, career growth, freelancing, English learning, and AI skill development. The platform focuses on practical prompts that can improve day-to-day results rather than abstract AI theory.
+The platform helps learners turn everyday goals into useful AI instructions and prompts. It focuses on practical outcomes rather than abstract AI theory.
 
-## Target audience
+Key use areas include:
 
-- Bangla speaking students preparing for exams or trying to understand difficult topics.
-- Job seekers improving CVs, interview preparation, and LinkedIn profiles.
-- Freelancers writing client proposals, improving portfolios, and communicating professionally.
-- Learners practicing English writing, speaking, and grammar.
-- Beginners learning AI, prompts, custom GPTs, and agents.
-- Small business owners and entrepreneurs who want simple AI assistance in Bangla.
+- Exam preparation and topic explanation
+- Study practice and mock test preparation
+- CV and interview preparation
+- Freelancing proposal and client communication
+- English writing and communication practice
+- AI learning and prompt use
+- Portfolio and income skill development
 
-## How the platform helps
+## Target Audience
 
-AI Success Lab Bangla is designed to make useful AI assistance easier for Bangla speaking users globally by:
+- Bangla speaking school and college students
+- SSC and HSC learners
+- University students
+- Job seekers
+- Freelancers
+- English learners
+- AI beginners
+- Small business owners and early stage entrepreneurs
 
-- Providing a familiar Bangla interface.
-- Letting users choose whether future AI assistance, instructions, and prompts should be generated in Bangla or English.
-- Organizing prompts around real user goals such as study, jobs, freelancing, English, and AI skills.
-- Preparing a reusable category and template structure so new prompt templates can be added without rewriting the page.
-- Supporting free public access through GitHub Pages deployment.
+## Current Features
 
-## Planned roadmap
+### Version 1 Foundation
 
-### Version 1
+- Bangla first responsive homepage
+- Outcome based navigation
+- Category cards for students, job seekers, freelancers, English learning, and AI learning
+- AI assistance language selector for Bangla or English
+- Hero links to AI Horizons and Google Scholar
+- AI Learning Hub with links to courses, blogs, GitBook, YouTube, and public portfolio resources
 
-- Professional responsive landing page.
-- Bangla-first interface.
-- AI assistance language selector for Bangla or English.
-- Six outcome-based cards with Version 2 placeholders.
-- Five clickable category cards.
-- Category detail view with selected AI assistance language and Version 2 placeholder.
-- Static files suitable for GitHub Pages.
+### Version 2 Started
 
-### Version 2
+The first working module is now available:
 
-- Add prompt templates for each category.
-- Add forms that collect user goals and context.
-- Generate copy-ready AI assistance, instructions, and prompts in the selected language.
-- Add more examples for students, job seekers, freelancers, English learners, and AI learners.
+## শিক্ষার্থী এআই প্রম্পট জেনারেটর
 
-### Future versions
+This module helps students generate a copy ready study prompt based on:
 
-- Save favorite prompts locally in the browser.
-- Add more Bangla learning resources and guides.
-- Add accessibility and usability improvements based on community feedback.
-- Expand support for entrepreneurs and small business workflows.
+- Learning level
+- Subject
+- Topic or chapter
+- Type of help needed
+- Difficulty level
+- Optional extra instruction
+- Preferred AI assistance language
+
+The generated prompt can be copied and used in ChatGPT or another AI tool.
+
+## How The Student Generator Helps
+
+Students can use it for:
+
+- Topic explanation
+- Step by step solution guidance
+- Practice question generation
+- Mock test creation
+- Answer checking
+- Study planning
 
 ## Technology
+
+This project uses:
 
 - HTML
 - CSS
 - JavaScript
-- No React, Angular, Vue, Bootstrap, or external frameworks
+- GitHub Pages
+
+No external framework is used.
 
 ## Deployment
 
-This project can be deployed directly with GitHub Pages because it uses static files only. Publish the repository root or the selected branch through GitHub Pages settings.
+The project can be deployed directly from the repository root using GitHub Pages.
+
+Live site:
+
+https://haquenam.github.io/ai-success-lab-bangla/
+
+## Roadmap
+
+### Next Features
+
+- Job seeker prompt generator
+- Freelancer client proposal generator
+- English practice prompt generator
+- AI learning prompt generator
+- Copy ready prompt library
+- Additional Bangla learning guides
+
+### Future Ideas
+
+- Save favourite prompts locally in the browser
+- Add more subject specific student templates
+- Add more Bangla educational examples
+- Improve accessibility and mobile usability
+- Expand resources for freelancers and small business owners
 
 ## Author
 
 Built by Enamul Haque.
+
+- LinkedIn: https://www.linkedin.com/in/haquenam/
+- Public learning portfolio: https://haquenam.github.io/
+- YouTube: https://www.youtube.com/@authorenam
