@@ -200,6 +200,29 @@ h2 {
   margin-top: 0.75rem;
 }
 
+.credibility-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.45rem;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.credibility-links a {
+  color: var(--primary-dark);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.credibility-links a:hover,
+.credibility-links a:focus-visible {
+  color: var(--primary);
+  outline: none;
+}
+
 .button,
 .text-button {
   border: 0;
