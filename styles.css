@@ -255,7 +255,6 @@ h2 {
 .hero-image-card {
   position: relative;
   width: min(100%, 380px);
-  max-height: 480px;
   align-self: center;
   justify-self: end;
   overflow: hidden;
@@ -296,6 +295,24 @@ h2 {
   border-radius: inherit;
   object-fit: cover;
   object-position: center top;
+}
+
+.hero-image-caption {
+  width: 100%;
+  margin: 12px auto 0;
+  color: inherit;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.hero-image-caption a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero-image-caption a:hover {
+  text-decoration: underline;
 }
 
 .hero-image-placeholder {
