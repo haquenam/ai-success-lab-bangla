@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Bangla AI Academy - পড়াশোনা, চাকরি, ফ্রিল্যান্সিং, ইংরেজি আর আয়ের স্কিল বাড়াতে সহজ বাংলায় এআই ব্যবহারের ওপেন সোর্স শিক্ষা উদ্যোগ।"
+      content="Bangla AI Academy - সহজ বাংলায় এআই ব্যবহার শেখার ওপেন সোর্স শিক্ষা উদ্যোগ।"
     />
     <title>Bangla AI Academy</title>
     <link rel="stylesheet" href="styles.css" />
@@ -44,8 +44,8 @@
         </p>
 
         <p class="description">
-          পড়াশোনা, চাকরি, ফ্রিল্যান্সিং, ইংরেজি আর আয়ের স্কিল বাড়াতে সহজ
-          বাংলায় এআই ব্যবহারের সহায়ক প্ল্যাটফর্ম।
+          পড়াশোনা, চাকরির প্রস্তুতি, ফ্রিল্যান্সিং, ইংরেজি শেখা আর আয় বাড়ানোর
+          দক্ষতা গড়তে সহজ বাংলায় এআই ব্যবহার শেখার প্ল্যাটফর্ম।
         </p>
 
         <div class="hero-actions">
@@ -150,6 +150,68 @@
     </div>
 
     <div id="category-grid" class="category-grid" aria-live="polite"></div>
+  </section>
+
+
+  <section
+    id="student-generator"
+    class="section student-generator container"
+    aria-labelledby="student-generator-title"
+  >
+    <div class="section-heading">
+      <p class="eyebrow">শিক্ষার্থীদের জন্য প্রম্পট</p>
+      <h2 id="student-generator-title">স্টাডি প্রম্পট জেনারেটর</h2>
+
+      <p>
+        আপনার বিষয়, লক্ষ্য ও পরীক্ষার ধরন লিখুন। এরপর বাংলা বা ইংরেজিতে
+        কপি-রেডি প্রম্পট তৈরি করুন।
+      </p>
+    </div>
+
+    <form id="student-prompt-form" class="student-prompt-form" novalidate>
+      <div class="form-grid">
+        <label class="form-field">
+          <span>প্রম্পটের ভাষা</span>
+          <select id="student-prompt-language" name="student-prompt-language">
+            <option value="বাংলা">বাংলা</option>
+            <option value="English">English</option>
+          </select>
+        </label>
+
+        <label class="form-field">
+          <span>পরীক্ষা / কাজের ধরন</span>
+          <select id="student-task-type" name="student-task-type">
+            <option value="exam-practice">পরীক্ষার অনুশীলন</option>
+            <option value="concept-explanation">কঠিন বিষয় বোঝা</option>
+            <option value="study-plan">স্টাডি প্ল্যান</option>
+          </select>
+        </label>
+      </div>
+
+      <label class="form-field">
+        <span>বিষয়, অধ্যায় বা শেখার লক্ষ্য</span>
+        <textarea
+          id="student-topic"
+          name="student-topic"
+          rows="4"
+          placeholder="যেমন: নবম শ্রেণির গণিতের বীজগণিত, আগামী সপ্তাহে পরীক্ষা"
+        ></textarea>
+      </label>
+
+      <p id="student-validation-message" class="validation-message" role="alert" hidden></p>
+
+      <div class="generator-actions">
+        <button class="button primary" type="submit">প্রম্পট তৈরি করুন</button>
+        <button id="copy-prompt-button" class="button secondary" type="button" disabled>
+          প্রম্পট কপি করুন
+        </button>
+      </div>
+    </form>
+
+    <article class="prompt-output-card" aria-live="polite">
+      <p class="eyebrow">তৈরি হওয়া প্রম্পট</p>
+      <pre id="generated-student-prompt" class="generated-prompt">প্রম্পট তৈরি করলে এখানে দেখা যাবে।</pre>
+    </article>
   </section>
 
   <section
