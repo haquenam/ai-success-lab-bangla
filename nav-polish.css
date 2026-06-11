@@ -1,0 +1,25 @@
+.nav-links {
+  gap: 0.25rem;
+  flex-wrap: nowrap;
+}
+
+.nav-links a {
+  white-space: nowrap;
+  padding: 0.34rem 0.46rem;
+  font-size: 0.82rem;
+  line-height: 1.1;
+}
+
+.brand span:last-child {
+  line-height: 1.15;
+}
+
+@media (max-width: 960px) {
+  .nav {
+    padding-block: 0.45rem;
+  }
+
+  .nav-links {
+    overflow-x: auto;
+  }
+}
