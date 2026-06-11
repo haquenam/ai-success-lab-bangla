@@ -151,22 +151,19 @@ https://haquenam.github.io/ai-success-lab-bangla/
 
 ## Roadmap
 
-### Next Features
+The first practical prompt generators are now live. The next stage is intentionally modest and focused on small improvements that add real learner value.
 
-- AI learning prompt generator
-- Copy ready prompt library
-- Additional Bangla learning guides
+### Practical Next Improvements
 
-### Future Ideas
+- Add ready to use prompt examples for students, job seekers, freelancers and English learners
+- Add short learning guides that help users understand how to use each generator well
+- Add skill and income readiness checklists for AI enabled upskilling and reskilling
+- Improve examples for beginners who need simple language and step by step guidance
+- Keep improving mobile usability and accessibility as the platform grows
 
-- Save favourite prompts locally in the browser
-- Add more subject specific student templates
-- Add more freelancer niche templates
-- Add more beginner English learning templates
-- Add more job seeker templates for different sectors
-- Add more Bangla educational examples
-- Improve accessibility and mobile usability
-- Expand resources for freelancers and small business owners
+### Development Principle
+
+The roadmap is not about promising instant income or large outcomes. The focus is learning velocity, practical AI use, career readiness, freelance readiness, English confidence, and responsible preparation for income opportunities.
 
 ## Author
 
