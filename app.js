@@ -214,6 +214,32 @@ function showGeneratorMessage(message, type = "info") {
   studentGeneratorMessage.dataset.type = type;
 }
 
+function clearStudentGenerator() {
+  state.generatedStudentPrompt = "";
+  studentForm.reset();
+  studentPromptOutput.textContent = "";
+  studentResultCard.hidden = true;
+  copyStudentPromptButton.disabled = true;
+  showGeneratorMessage("ফর্ম রিসেট হয়েছে। নতুন করে শুরু করুন।", "info");
+}
+
+function createResetButton() {
+  const existingResetButton = document.querySelector("#reset-student-form");
+
+  if (existingResetButton || !copyStudentPromptButton) {
+    return existingResetButton;
+  }
+
+  const resetButton = document.createElement("button");
+  resetButton.className = "button secondary";
+  resetButton.id = "reset-student-form";
+  resetButton.type = "button";
+  resetButton.textContent = "রিসেট করুন";
+
+  copyStudentPromptButton.insertAdjacentElement("afterend", resetButton);
+  return resetButton;
+}
+
 function handleStudentFormSubmit(event) {
   event.preventDefault();
 
@@ -248,6 +274,8 @@ async function copyStudentPrompt() {
 }
 
 function attachEventListeners() {
+  const resetStudentFormButton = createResetButton();
+
   outcomeGrid.addEventListener("click", (event) => {
     const card = event.target.closest("[data-outcome]");
 
@@ -283,6 +311,10 @@ function attachEventListeners() {
 
   if (copyStudentPromptButton) {
     copyStudentPromptButton.addEventListener("click", copyStudentPrompt);
+  }
+
+  if (resetStudentFormButton) {
+    resetStudentFormButton.addEventListener("click", clearStudentGenerator);
   }
 }
 
