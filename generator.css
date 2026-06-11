@@ -125,6 +125,84 @@
   white-space: pre-wrap;
 }
 
+.nav-links {
+  gap: 0.25rem;
+  flex-wrap: nowrap;
+}
+
+.nav-links a {
+  white-space: nowrap;
+  padding: 0.34rem 0.46rem;
+  line-height: 1.1;
+}
+
+.nav-links a[href="#home"],
+.nav-links a[href="#categories"],
+.nav-links a[href="#student-generator"],
+.nav-links a[href="#job-seeker-generator"],
+.nav-links a[href="#freelancer-generator"],
+.nav-links a[href="#english-generator"],
+.nav-links a[href="#ai-learning-generator"],
+.nav-links a[href="#learning-hub"],
+.nav-links a[href="#roadmap"] {
+  font-size: 0;
+}
+
+.nav-links a[href="#home"]::after,
+.nav-links a[href="#categories"]::after,
+.nav-links a[href="#student-generator"]::after,
+.nav-links a[href="#job-seeker-generator"]::after,
+.nav-links a[href="#freelancer-generator"]::after,
+.nav-links a[href="#english-generator"]::after,
+.nav-links a[href="#ai-learning-generator"]::after,
+.nav-links a[href="#learning-hub"]::after,
+.nav-links a[href="#roadmap"]::after {
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.nav-links a[href="#home"]::after {
+  content: "হোম";
+}
+
+.nav-links a[href="#categories"]::after {
+  content: "বিভাগ";
+}
+
+.nav-links a[href="#student-generator"]::after {
+  content: "পড়াশোনা";
+}
+
+.nav-links a[href="#job-seeker-generator"]::after {
+  content: "চাকরি";
+}
+
+.nav-links a[href="#freelancer-generator"]::after {
+  content: "ফ্রিল্যান্স";
+}
+
+.nav-links a[href="#english-generator"]::after {
+  content: "ইংরেজি";
+}
+
+.nav-links a[href="#ai-learning-generator"]::after {
+  content: "এআই";
+}
+
+.nav-links a[href="#learning-hub"]::after {
+  content: "হাব";
+}
+
+.nav-links a[href="#roadmap"]::after {
+  content: "রোডম্যাপ";
+}
+
+@media (max-width: 960px) {
+  .nav-links {
+    overflow-x: auto;
+  }
+}
+
 @media (max-width: 720px) {
   .form-grid {
     grid-template-columns: 1fr;
