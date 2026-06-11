@@ -487,6 +487,16 @@ h2 {
   border-radius: var(--radius-md);
 }
 
+.learning-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #eff6ff, #ecfdf5);
+  font-size: 1.1rem;
+}
+
 .learning-card h3 {
   margin: 0;
   color: var(--primary-dark);
