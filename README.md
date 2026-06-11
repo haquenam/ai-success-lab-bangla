@@ -27,6 +27,7 @@ Key use areas include:
 - Fiverr gig and package planning
 - Upwork proposal writing
 - English writing and communication practice
+- Beginner friendly English speaking, grammar, vocabulary and pronunciation practice
 - AI learning and prompt use
 - Portfolio and income skill development
 
@@ -54,7 +55,7 @@ Key use areas include:
 
 ### Version 2 Working Modules
 
-The first two working modules are now available.
+The first three working modules are now available.
 
 ## শিক্ষার্থী এআই প্রম্পট জেনারেটর
 
@@ -89,6 +90,25 @@ It supports:
 
 The module asks for platform, service category, skill level, output type, writing tone, budget or package idea, client requirement, and portfolio proof. It then creates a structured prompt that learners can use in ChatGPT or another AI tool.
 
+## ইংরেজি শেখার এআই প্রম্পট জেনারেটর
+
+This module helps Bangla speaking learners create beginner friendly English learning prompts.
+
+It supports:
+
+- Absolute beginner learning
+- A1, A2 and B1 level practice
+- Speaking practice
+- Pronunciation support
+- Vocabulary building
+- Grammar explanation without jargon
+- Writing correction
+- Reading and listening practice
+- Job and freelance English
+- Daily practice routine
+
+The generated prompt asks the AI tool to explain in simple Bangla first, give easy English examples, add Bangla meaning, provide practice sentences, wait for the learner to answer, and then correct mistakes gently.
+
 ## Technology
 
 This project uses:
@@ -113,7 +133,6 @@ https://haquenam.github.io/ai-success-lab-bangla/
 ### Next Features
 
 - Job seeker prompt generator
-- English practice prompt generator
 - AI learning prompt generator
 - Copy ready prompt library
 - Additional Bangla learning guides
@@ -123,6 +142,7 @@ https://haquenam.github.io/ai-success-lab-bangla/
 - Save favourite prompts locally in the browser
 - Add more subject specific student templates
 - Add more freelancer niche templates
+- Add more beginner English learning templates
 - Add more Bangla educational examples
 - Improve accessibility and mobile usability
 - Expand resources for freelancers and small business owners
