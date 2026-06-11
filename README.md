@@ -31,7 +31,7 @@ Key use areas include:
 - Upwork proposal writing
 - English writing and communication practice
 - Beginner friendly English speaking, grammar, vocabulary and pronunciation practice
-- AI learning and prompt use
+- AI learning, prompt writing, custom GPT, AI agent and automation basics
 - Portfolio and income skill development
 
 ## Target Audience
@@ -58,7 +58,7 @@ Key use areas include:
 
 ### Version 2 Working Modules
 
-The first four working modules are now available.
+The first five working modules are now available.
 
 ## শিক্ষার্থী এআই প্রম্পট জেনারেটর
 
@@ -130,6 +130,25 @@ It supports:
 
 The generated prompt asks the AI tool to explain in simple Bangla first, give easy English examples, add Bangla meaning, provide practice sentences, wait for the learner to answer, and then correct mistakes gently.
 
+## এআই শেখার এআই প্রম্পট জেনারেটর
+
+This module helps beginners create a step by step AI learning prompt.
+
+It supports:
+
+- ChatGPT basics
+- Prompt writing
+- Prompt engineering
+- Custom GPT
+- AI agent concepts
+- AI automation basics
+- AI for study
+- AI for job search
+- AI for freelancing
+- AI safety and ethics
+
+The generated prompt asks the AI tool to explain the topic simply, provide practical examples, create a 7 day practice plan, give sample prompts, highlight common mistakes, and include a short responsible AI use note.
+
 ## Technology
 
 This project uses:
@@ -155,7 +174,7 @@ The first practical prompt generators are now live. The next stage is intentiona
 
 ### Practical Next Improvements
 
-- Add ready to use prompt examples for students, job seekers, freelancers and English learners
+- Add ready to use prompt examples for students, job seekers, freelancers, English learners and AI beginners
 - Add short learning guides that help users understand how to use each generator well
 - Add skill and income readiness checklists for AI enabled upskilling and reskilling
 - Improve examples for beginners who need simple language and step by step guidance
