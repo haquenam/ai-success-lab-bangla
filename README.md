@@ -24,6 +24,8 @@ Key use areas include:
 - Study practice and mock test preparation
 - CV and interview preparation
 - Freelancing proposal and client communication
+- Fiverr gig and package planning
+- Upwork proposal writing
 - English writing and communication practice
 - AI learning and prompt use
 - Portfolio and income skill development
@@ -50,9 +52,9 @@ Key use areas include:
 - Hero links to AI Horizons and Google Scholar
 - AI Learning Hub with links to courses, blogs, GitBook, YouTube, and public portfolio resources
 
-### Version 2 Started
+### Version 2 Working Modules
 
-The first working module is now available:
+The first two working modules are now available.
 
 ## শিক্ষার্থী এআই প্রম্পট জেনারেটর
 
@@ -66,18 +68,26 @@ This module helps students generate a copy ready study prompt based on:
 - Optional extra instruction
 - Preferred AI assistance language
 
-The generated prompt can be copied and used in ChatGPT or another AI tool.
+Students can use it for topic explanation, step by step solution guidance, practice questions, mock tests, answer checking, and study planning.
 
-## How The Student Generator Helps
+## ফ্রিল্যান্সার এআই প্রম্পট জেনারেটর
 
-Students can use it for:
+This module helps freelancers generate a copy ready prompt for Fiverr, Upwork, or both platforms.
 
-- Topic explanation
-- Step by step solution guidance
-- Practice question generation
-- Mock test creation
-- Answer checking
-- Study planning
+It supports:
+
+- Fiverr gig title
+- Fiverr gig description
+- Fiverr package planning
+- Fiverr FAQ
+- Fiverr buyer requirements
+- Upwork proposal
+- Client message
+- Portfolio description
+- Service offer
+- Full freelance starter kit
+
+The module asks for platform, service category, skill level, output type, writing tone, budget or package idea, client requirement, and portfolio proof. It then creates a structured prompt that learners can use in ChatGPT or another AI tool.
 
 ## Technology
 
@@ -103,7 +113,6 @@ https://haquenam.github.io/ai-success-lab-bangla/
 ### Next Features
 
 - Job seeker prompt generator
-- Freelancer client proposal generator
 - English practice prompt generator
 - AI learning prompt generator
 - Copy ready prompt library
@@ -113,6 +122,7 @@ https://haquenam.github.io/ai-success-lab-bangla/
 
 - Save favourite prompts locally in the browser
 - Add more subject specific student templates
+- Add more freelancer niche templates
 - Add more Bangla educational examples
 - Improve accessibility and mobile usability
 - Expand resources for freelancers and small business owners
