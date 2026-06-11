@@ -1,3 +1,12 @@
+const outcomeItems = [
+  "পরীক্ষার প্রস্তুতি নিতে চাই",
+  "চাকরি খুঁজতে চাই",
+  "সিভি তৈরি করতে চাই",
+  "ফ্রিল্যান্সিং শুরু করতে চাই",
+  "ইংরেজি শিখতে চাই",
+  "এআই শিখতে চাই"
+];
+
 const promptCategories = [
   {
     id: "students",
@@ -40,12 +49,31 @@ const state = {
   promptLanguage: "বাংলা"
 };
 
+const outcomeGrid = document.querySelector("#outcome-grid");
+const outcomeStatus = document.querySelector("#outcome-status");
 const categoryGrid = document.querySelector("#category-grid");
 const detailSection = document.querySelector("#category-detail");
 const detailTitle = document.querySelector("#detail-title");
 const detailDescription = document.querySelector("#detail-description");
 const detailLanguage = document.querySelector("#detail-language");
 const backButton = document.querySelector("#back-button");
+
+function renderOutcomes() {
+  outcomeGrid.innerHTML = outcomeItems
+    .map(
+      (outcome) => `
+        <button class="outcome-card" type="button" data-outcome="${outcome}" aria-label="${outcome}">
+          ${outcome}
+        </button>
+      `
+    )
+    .join("");
+}
+
+function showOutcomeStatus() {
+  outcomeStatus.textContent = "Coming in Version 2";
+  outcomeStatus.hidden = false;
+}
 
 function renderCategories() {
   categoryGrid.innerHTML = promptCategories
@@ -90,6 +118,13 @@ function closeCategory() {
 }
 
 function attachEventListeners() {
+  outcomeGrid.addEventListener("click", (event) => {
+    const card = event.target.closest("[data-outcome]");
+    if (card) {
+      showOutcomeStatus();
+    }
+  });
+
   categoryGrid.addEventListener("click", (event) => {
     const card = event.target.closest("[data-category-id]");
     if (card) {
@@ -113,6 +148,7 @@ function openCategoryFromHash() {
   }
 }
 
+renderOutcomes();
 renderCategories();
 attachEventListeners();
 openCategoryFromHash();
