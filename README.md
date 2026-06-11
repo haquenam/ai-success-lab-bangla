@@ -1,6 +1,6 @@
-# AI Success Lab Bangla
+# Bangla AI Academy
 
-AI Success Lab Bangla helps Bangla speaking learners use AI for better exam preparation, career readiness, freelancing, English communication, portfolio building, and income growth.
+Bangla AI Academy helps Bangla speaking learners use AI for better exam preparation, career readiness, freelancing, English communication, portfolio building, and income growth.
 
 ## Project overview
 
@@ -8,7 +8,7 @@ Version 1 is a static, GitHub Pages-ready landing page built with only HTML, CSS
 
 ## Purpose
 
-The purpose of AI Success Lab Bangla is to help Bangla speaking learners around the world use AI more confidently for education, career growth, freelancing, English learning, and AI skill development. The platform focuses on practical prompts that can improve day-to-day results rather than abstract AI theory.
+The purpose of Bangla AI Academy is to help Bangla speaking learners around the world use AI more confidently for education, career growth, freelancing, English learning, and AI skill development. The platform focuses on practical prompts that can improve day-to-day results rather than abstract AI theory.
 
 ## Target audience
 
@@ -21,7 +21,7 @@ The purpose of AI Success Lab Bangla is to help Bangla speaking learners around 
 
 ## How the platform helps
 
-AI Success Lab Bangla is designed to make useful AI assistance easier for Bangla speaking users globally by:
+Bangla AI Academy is designed to make useful AI assistance easier for Bangla speaking users globally by:
 
 - Providing a familiar Bangla interface.
 - Letting users choose whether future AI assistance, instructions, and prompts should be generated in Bangla or English.

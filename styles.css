@@ -255,7 +255,6 @@ h2 {
 .hero-image-card {
   position: relative;
   width: min(100%, 380px);
-  max-height: 480px;
   align-self: center;
   justify-self: end;
   overflow: hidden;
@@ -296,6 +295,30 @@ h2 {
   border-radius: inherit;
   object-fit: cover;
   object-position: center top;
+}
+
+.hero-image-caption {
+  position: relative;
+  z-index: 1;
+  margin: 0.45rem 0.25rem 0.05rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.hero-image-caption a {
+  color: var(--primary-dark);
+  font-weight: 900;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.hero-image-caption a:hover,
+.hero-image-caption a:focus-visible {
+  color: var(--primary);
+  outline: none;
 }
 
 .hero-image-placeholder {
