@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Success Lab Bangladesh - বাংলাভাষী শিক্ষার্থী, চাকরি প্রার্থী, ফ্রিল্যান্সার এবং উদ্যোক্তাদের জন্য বিনামূল্যের এআই সহায়ক প্ল্যাটফর্ম।">
+  <title>AI Success Lab Bangladesh</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">মূল কনটেন্টে যান</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="প্রধান নেভিগেশন">
+      <a class="brand" href="#home" aria-label="AI Success Lab Bangladesh হোম">
+        <span class="brand-mark">AI</span>
+        <span>AI Success Lab Bangladesh</span>
+      </a>
+      <div class="nav-links">
+        <a href="#home">হোম</a>
+        <a href="#categories">ক্যাটাগরি</a>
+        <a href="#roadmap">রোডম্যাপ</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">ওপেন সোর্স এআই প্রম্পট ল্যাব</p>
+          <h1>AI Success Lab Bangladesh</h1>
+          <p class="tagline">পড়াশোনা ভালো করুন। কাজ ভালো করুন। আয় ভালো করুন।</p>
+          <p class="description">বাংলাভাষী শিক্ষার্থী, চাকরি প্রার্থী, ফ্রিল্যান্সার এবং উদ্যোক্তাদের জন্য বিনামূল্যের এআই সহায়ক প্ল্যাটফর্ম।</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#categories">শুরু করুন</a>
+            <a class="button secondary" href="https://github.com/" target="_blank" rel="noopener">GitHub Repository</a>
+          </div>
+        </div>
+
+        <aside class="language-panel" aria-labelledby="language-title">
+          <div class="panel-icon" aria-hidden="true">🌐</div>
+          <h2 id="language-title">আপনি কোন ভাষায় প্রম্পট চান?</h2>
+          <p>ইন্টারফেস বাংলা থাকবে, তবে ভবিষ্যতের প্রম্পট এই ভাষায় তৈরি হবে।</p>
+          <div class="language-options" role="radiogroup" aria-label="প্রম্পট ভাষা নির্বাচন">
+            <label>
+              <input type="radio" name="prompt-language" value="বাংলা" checked>
+              <span>বাংলা</span>
+            </label>
+            <label>
+              <input type="radio" name="prompt-language" value="English">
+              <span>English</span>
+            </label>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="categories" class="section container" aria-labelledby="categories-title">
+      <div class="section-heading">
+        <p class="eyebrow">প্রয়োজন অনুযায়ী বেছে নিন</p>
+        <h2 id="categories-title">মূল ক্যাটাগরি</h2>
+        <p>প্রতিটি ক্যাটাগরিতে ভবিষ্যতে বাস্তব কাজের জন্য প্রস্তুত প্রম্পট টেমপ্লেট যুক্ত হবে।</p>
+      </div>
+      <div id="category-grid" class="category-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="category-detail" class="section detail-section hidden" aria-live="polite">
+      <div class="container">
+        <button id="back-button" class="text-button" type="button">← সব ক্যাটাগরিতে ফিরে যান</button>
+        <article class="detail-card">
+          <p class="eyebrow">নির্বাচিত ক্যাটাগরি</p>
+          <h2 id="detail-title"></h2>
+          <p id="detail-description" class="detail-description"></p>
+          <dl class="detail-meta">
+            <div>
+              <dt>নির্বাচিত প্রম্পট ভাষা</dt>
+              <dd id="detail-language"></dd>
+            </div>
+            <div>
+              <dt>স্ট্যাটাস</dt>
+              <dd>Coming in Version 2</dd>
+            </div>
+          </dl>
+        </article>
+      </div>
+    </section>
+
+    <section id="roadmap" class="section roadmap">
+      <div class="container roadmap-grid">
+        <div>
+          <p class="eyebrow">পরবর্তী পরিকল্পনা</p>
+          <h2>Version 2-এ কী আসবে?</h2>
+          <p>ব্যবহারকারীদের লক্ষ্য, দক্ষতা ও পরিস্থিতি অনুযায়ী বাংলা বা ইংরেজিতে ব্যবহারযোগ্য প্রম্পট তৈরি করার টেমপ্লেট লাইব্রেরি যুক্ত করা হবে।</p>
+        </div>
+        <div class="roadmap-list" aria-label="রোডম্যাপ আইটেম">
+          <span>প্রম্পট টেমপ্লেট লাইব্রেরি</span>
+          <span>ক্যাটাগরি ভিত্তিক ফর্ম</span>
+          <span>কপি-রেডি ফলাফল</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>Built by Enamul Haque</p>
+      <p>AI Success Lab Bangladesh একটি বিনামূল্যের ওপেন সোর্স উদ্যোগ।</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
