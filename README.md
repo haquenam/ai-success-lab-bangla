@@ -1,10 +1,10 @@
 # AI Success Lab Bangla
 
-AI Success Lab Bangla is a free and open source web application for Bangla speaking learners globally who want to use AI assistance, instructions, and prompts for practical, real life outcomes.
+AI Success Lab Bangla helps Bangla speaking learners use AI for better exam preparation, career readiness, freelancing, English communication, portfolio building, and income growth.
 
 ## Project overview
 
-Version 1 is a static, GitHub Pages-ready landing page built with only HTML, CSS, and JavaScript. The interface is primarily in Bangla and introduces the platform, AI assistance language selection, and five core learning and career categories.
+Version 1 is a static, GitHub Pages-ready landing page built with only HTML, CSS, and JavaScript. The interface is primarily in Bangla and introduces the platform, AI assistance language selection, outcome-based goals, and core learning and career categories.
 
 ## Purpose
 
@@ -36,6 +36,7 @@ AI Success Lab Bangla is designed to make useful AI assistance easier for Bangla
 - Professional responsive landing page.
 - Bangla-first interface.
 - AI assistance language selector for Bangla or English.
+- Six outcome-based cards with Version 2 placeholders.
 - Five clickable category cards.
 - Category detail view with selected AI assistance language and Version 2 placeholder.
 - Static files suitable for GitHub Pages.
