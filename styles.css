@@ -709,6 +709,11 @@ h2 {
     padding: 1.2rem 0 0.85rem;
   }
 
+  .hero-actions .button {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
   .section {
     padding: 1rem 0;
   }
