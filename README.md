@@ -23,6 +23,9 @@ Key use areas include:
 - Exam preparation and topic explanation
 - Study practice and mock test preparation
 - CV and interview preparation
+- CV to job advert matching
+- Cover letter and application message writing
+- Interview preparation
 - Freelancing proposal and client communication
 - Fiverr gig and package planning
 - Upwork proposal writing
@@ -55,7 +58,7 @@ Key use areas include:
 
 ### Version 2 Working Modules
 
-The first three working modules are now available.
+The first four working modules are now available.
 
 ## শিক্ষার্থী এআই প্রম্পট জেনারেটর
 
@@ -70,6 +73,24 @@ This module helps students generate a copy ready study prompt based on:
 - Preferred AI assistance language
 
 Students can use it for topic explanation, step by step solution guidance, practice questions, mock tests, answer checking, and study planning.
+
+## চাকরি প্রার্থী এআই প্রম্পট জেনারেটর
+
+This module helps job seekers create copy ready prompts for career preparation.
+
+It supports:
+
+- New CV creation
+- Existing CV improvement
+- Job advert analysis
+- CV and job advert match review
+- Cover letter creation
+- LinkedIn profile improvement
+- Interview preparation
+- Job application message writing
+- Full job application kit
+
+The module asks for the target action, sector, experience level, education, target role, skills, optional job advert, and optional CV information. It includes a guardrail that the AI should not invent experience, skills, education, or achievements.
 
 ## ফ্রিল্যান্সার এআই প্রম্পট জেনারেটর
 
@@ -132,7 +153,6 @@ https://haquenam.github.io/ai-success-lab-bangla/
 
 ### Next Features
 
-- Job seeker prompt generator
 - AI learning prompt generator
 - Copy ready prompt library
 - Additional Bangla learning guides
@@ -143,6 +163,7 @@ https://haquenam.github.io/ai-success-lab-bangla/
 - Add more subject specific student templates
 - Add more freelancer niche templates
 - Add more beginner English learning templates
+- Add more job seeker templates for different sectors
 - Add more Bangla educational examples
 - Improve accessibility and mobile usability
 - Expand resources for freelancers and small business owners
