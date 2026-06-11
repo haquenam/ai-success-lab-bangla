@@ -11,7 +11,7 @@ const promptCategories = [
   {
     id: "students",
     title: "শিক্ষার্থী",
-    icon: "📚",
+    icon: "🎓",
     description: "পরীক্ষার প্রস্তুতি, কঠিন বিষয় বোঝা, অনুশীলন প্রশ্ন তৈরি",
     templates: []
   },
@@ -25,7 +25,7 @@ const promptCategories = [
   {
     id: "freelancers",
     title: "ফ্রিল্যান্সার",
-    icon: "🚀",
+    icon: "🌍",
     description: "ক্লায়েন্ট প্রপোজাল, পোর্টফোলিও, যোগাযোগ",
     templates: []
   },
