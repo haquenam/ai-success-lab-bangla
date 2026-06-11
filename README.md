@@ -4,7 +4,7 @@ AI Success Lab Bangla helps Bangla speaking learners use AI for better exam prep
 
 ## Project overview
 
-Version 1 is a static, GitHub Pages-ready landing page built with only HTML, CSS, and JavaScript. The interface is primarily in Bangla and introduces the platform, AI assistance language selection, outcome-based goals, and core learning and career categories.
+Version 1 is a static, GitHub Pages-ready landing page built with only HTML, CSS, and JavaScript. The interface is primarily in Bangla and introduces the platform, AI assistance language selection, outcome-based goals, and core learning and career categories. Version 2 has started with the first working module: শিক্ষার্থী এআই প্রম্পট জেনারেটর.
 
 ## Purpose
 
@@ -36,13 +36,15 @@ AI Success Lab Bangla is designed to make useful AI assistance easier for Bangla
 - Professional responsive landing page.
 - Bangla-first interface.
 - AI assistance language selector for Bangla or English.
-- Six outcome-based cards with Version 2 placeholders.
+- Outcome-based cards with Version 2 placeholders and a student generator entry point.
 - Five clickable category cards.
 - Category detail view with selected AI assistance language and Version 2 placeholder.
 - Static files suitable for GitHub Pages.
 
 ### Version 2
 
+- Started with শিক্ষার্থী এআই প্রম্পট জেনারেটর, the first working module.
+- Help students create study prompts for exam preparation, topic explanation, practice questions, mock tests, and answer checking.
 - Add prompt templates for each category.
 - Add forms that collect user goals and context.
 - Generate copy-ready AI assistance, instructions, and prompts in the selected language.

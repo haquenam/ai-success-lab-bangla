@@ -44,8 +44,8 @@
         </p>
 
         <p class="description">
-          পড়াশোনা, চাকরি, ফ্রিল্যান্সিং, ইংরেজি আর আয়ের স্কিল বাড়াতে সহজ
-          বাংলায় এআই ব্যবহারের সহায়ক প্ল্যাটফর্ম।
+          পড়াশোনা, চাকরির প্রস্তুতি, ফ্রিল্যান্সিং, ইংরেজি শেখা আর আয়
+          বাড়ানোর দক্ষতা গড়তে সহজ বাংলায় এআই ব্যবহার শেখার প্ল্যাটফর্ম।
         </p>
 
         <div class="hero-actions">
@@ -150,6 +150,129 @@
     </div>
 
     <div id="category-grid" class="category-grid" aria-live="polite"></div>
+  </section>
+
+  <section
+    id="student-generator"
+    class="section student-generator container"
+    aria-labelledby="student-generator-title"
+  >
+    <div class="section-heading">
+      <p class="eyebrow">Version 2 শুরু</p>
+      <h2 id="student-generator-title">শিক্ষার্থী এআই প্রম্পট জেনারেটর</h2>
+
+      <p>
+        আপনার ক্লাস, বিষয়, টপিক আর শেখার লক্ষ্য বেছে নিন। তারপর একটি কপি
+        করার মতো প্রম্পট তৈরি হবে, যা আপনি ChatGPT বা অন্য এআই টুলে ব্যবহার
+        করতে পারবেন।
+      </p>
+    </div>
+
+    <div class="generator-layout">
+      <form id="student-prompt-form" class="generator-card" novalidate>
+        <div class="form-grid">
+          <label class="form-field" for="student-level">
+            <span>আপনি কোন লেভেলের জন্য পড়ছেন?</span>
+            <select id="student-level" name="level" required>
+              <option value="">লেভেল নির্বাচন করুন</option>
+              <option value="SSC">SSC</option>
+              <option value="HSC">HSC</option>
+              <option value="Class 6 to 8">Class 6 to 8</option>
+              <option value="Class 9 to 10">Class 9 to 10</option>
+              <option value="College">College</option>
+              <option value="University">University</option>
+              <option value="Other">Other</option>
+            </select>
+          </label>
+
+          <label class="form-field" for="student-subject">
+            <span>বিষয় নির্বাচন করুন</span>
+            <select id="student-subject" name="subject" required>
+              <option value="">বিষয় নির্বাচন করুন</option>
+              <option value="গণিত">গণিত</option>
+              <option value="ইংরেজি">ইংরেজি</option>
+              <option value="পদার্থবিজ্ঞান">পদার্থবিজ্ঞান</option>
+              <option value="রসায়ন">রসায়ন</option>
+              <option value="জীববিজ্ঞান">জীববিজ্ঞান</option>
+              <option value="বাংলা">বাংলা</option>
+              <option value="আইসিটি">আইসিটি</option>
+              <option value="সাধারণ জ্ঞান">সাধারণ জ্ঞান</option>
+              <option value="অন্যান্য">অন্যান্য</option>
+            </select>
+          </label>
+
+          <label class="form-field form-field-wide" for="student-topic">
+            <span>টপিক বা অধ্যায়ের নাম লিখুন</span>
+            <input
+              id="student-topic"
+              name="topic"
+              type="text"
+              placeholder="যেমন: বীজগণিত, Tense, Newton's Laws, Organic Chemistry"
+              required
+            />
+          </label>
+
+          <label class="form-field" for="student-help-type">
+            <span>আপনি কী ধরনের সাহায্য চান?</span>
+            <select id="student-help-type" name="helpType" required>
+              <option value="">সাহায্যের ধরন নির্বাচন করুন</option>
+              <option value="সহজভাবে বুঝিয়ে দিন">সহজভাবে বুঝিয়ে দিন</option>
+              <option value="ধাপে ধাপে সমাধান দেখান">ধাপে ধাপে সমাধান দেখান</option>
+              <option value="অনুশীলন প্রশ্ন দিন">অনুশীলন প্রশ্ন দিন</option>
+              <option value="মক টেস্ট তৈরি করুন">মক টেস্ট তৈরি করুন</option>
+              <option value="আমার উত্তর যাচাই করুন">আমার উত্তর যাচাই করুন</option>
+              <option value="পড়ার পরিকল্পনা তৈরি করুন">পড়ার পরিকল্পনা তৈরি করুন</option>
+            </select>
+          </label>
+
+          <label class="form-field" for="student-difficulty">
+            <span>কঠিনতার মাত্রা</span>
+            <select id="student-difficulty" name="difficulty">
+              <option value="সহজ">সহজ</option>
+              <option value="মাঝারি">মাঝারি</option>
+              <option value="পরীক্ষার মতো">পরীক্ষার মতো</option>
+              <option value="চ্যালেঞ্জিং">চ্যালেঞ্জিং</option>
+            </select>
+          </label>
+
+          <label class="form-field form-field-wide" for="student-extra">
+            <span>অতিরিক্ত নির্দেশনা</span>
+            <textarea
+              id="student-extra"
+              name="extra"
+              rows="4"
+              placeholder="যেমন: বোর্ড পরীক্ষার প্রস্তুতি নিচ্ছি, আমি একদম বেসিক থেকে বুঝতে চাই, উত্তর আগে দেবেন না"
+            ></textarea>
+          </label>
+        </div>
+
+        <p class="generator-note">
+          ভালো ফলের জন্য আপনার বইয়ের অধ্যায়, সিলেবাস বা প্রশ্নের ছবি থেকে
+          লেখা অংশ কপি করে প্রম্পটের সঙ্গে ব্যবহার করলে উত্তর আরও নির্ভুল হবে।
+        </p>
+
+        <p id="generator-message" class="form-message" role="status" hidden></p>
+
+        <button class="button primary generator-submit" type="submit">
+          প্রম্পট তৈরি করুন
+        </button>
+      </form>
+
+      <article id="prompt-result" class="generator-card result-card" hidden>
+        <div class="result-heading">
+          <div>
+            <p class="eyebrow">কপি করার জন্য প্রস্তুত</p>
+            <h3>আপনার স্টাডি প্রম্পট</h3>
+          </div>
+          <button id="copy-prompt" class="button secondary" type="button">
+            প্রম্পট কপি করুন
+          </button>
+        </div>
+
+        <pre id="generated-prompt" class="prompt-output"></pre>
+        <p id="copy-message" class="copy-message" role="status" hidden></p>
+      </article>
+    </div>
   </section>
 
   <section
