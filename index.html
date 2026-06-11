@@ -70,7 +70,7 @@
         </div>
 
         <aside class="language-panel" aria-labelledby="language-title">
-          <div class="panel-icon" aria-hidden="true">🌐</div>
+          <div class="panel-icon" aria-hidden="true">&#127760;</div>
 
           <h2 id="language-title">আপনি কোন ভাষায় এআই সহায়তা চান?</h2>
 
@@ -153,6 +153,118 @@
   </section>
 
   <section
+    id="student-generator"
+    class="section student-generator container"
+    aria-labelledby="student-generator-title"
+  >
+    <div class="section-heading">
+      <p class="eyebrow">Version 2 শুরু</p>
+      <h2 id="student-generator-title">শিক্ষার্থী এআই প্রম্পট জেনারেটর</h2>
+
+      <p>
+        আপনার ক্লাস, বিষয়, টপিক আর শেখার লক্ষ্য বেছে নিন। তারপর একটি কপি
+        করার মতো প্রম্পট তৈরি হবে, যা আপনি ChatGPT বা অন্য এআই টুলে ব্যবহার
+        করতে পারবেন।
+      </p>
+    </div>
+
+    <form id="student-prompt-form" class="student-prompt-form" novalidate>
+      <div class="form-grid">
+        <label class="form-field">
+          <span>আপনি কোন লেভেলের জন্য পড়ছেন?</span>
+          <select name="level" required>
+            <option value="">লেভেল নির্বাচন করুন</option>
+            <option value="SSC">SSC</option>
+            <option value="HSC">HSC</option>
+            <option value="Class 6 to 8">Class 6 to 8</option>
+            <option value="Class 9 to 10">Class 9 to 10</option>
+            <option value="College">College</option>
+            <option value="University">University</option>
+            <option value="Other">Other</option>
+          </select>
+        </label>
+
+        <label class="form-field">
+          <span>বিষয় নির্বাচন করুন</span>
+          <select name="subject" required>
+            <option value="">বিষয় নির্বাচন করুন</option>
+            <option value="গণিত">গণিত</option>
+            <option value="ইংরেজি">ইংরেজি</option>
+            <option value="পদার্থবিজ্ঞান">পদার্থবিজ্ঞান</option>
+            <option value="রসায়ন">রসায়ন</option>
+            <option value="জীববিজ্ঞান">জীববিজ্ঞান</option>
+            <option value="বাংলা">বাংলা</option>
+            <option value="আইসিটি">আইসিটি</option>
+            <option value="সাধারণ জ্ঞান">সাধারণ জ্ঞান</option>
+            <option value="অন্যান্য">অন্যান্য</option>
+          </select>
+        </label>
+
+        <label class="form-field form-field-wide">
+          <span>টপিক বা অধ্যায়ের নাম লিখুন</span>
+          <input
+            type="text"
+            name="topic"
+            placeholder="যেমন: নিউটনের গতি সূত্র"
+            required
+          />
+        </label>
+
+        <label class="form-field">
+          <span>আপনি কী ধরনের সাহায্য চান?</span>
+          <select name="helpType" required>
+            <option value="">সাহায্যের ধরন নির্বাচন করুন</option>
+            <option value="সহজভাবে বুঝিয়ে দিন">সহজভাবে বুঝিয়ে দিন</option>
+            <option value="ধাপে ধাপে সমাধান দেখান">ধাপে ধাপে সমাধান দেখান</option>
+            <option value="অনুশীলন প্রশ্ন দিন">অনুশীলন প্রশ্ন দিন</option>
+            <option value="মক টেস্ট তৈরি করুন">মক টেস্ট তৈরি করুন</option>
+            <option value="আমার উত্তর যাচাই করুন">আমার উত্তর যাচাই করুন</option>
+            <option value="পড়ার পরিকল্পনা তৈরি করুন">পড়ার পরিকল্পনা তৈরি করুন</option>
+          </select>
+        </label>
+
+        <label class="form-field">
+          <span>কঠিনতার মাত্রা</span>
+          <select name="difficulty">
+            <option value="সহজ">সহজ</option>
+            <option value="মাঝারি" selected>মাঝারি</option>
+            <option value="পরীক্ষার মতো">পরীক্ষার মতো</option>
+            <option value="চ্যালেঞ্জিং">চ্যালেঞ্জিং</option>
+          </select>
+        </label>
+
+        <label class="form-field form-field-wide">
+          <span>অতিরিক্ত নির্দেশনা</span>
+          <textarea
+            name="extra"
+            rows="4"
+            placeholder="যেমন: বোর্ড পরীক্ষার স্টাইলে উত্তর চাই"
+          ></textarea>
+        </label>
+      </div>
+
+      <p class="student-generator-note">
+        ভালো ফলের জন্য আপনার বইয়ের অধ্যায়, সিলেবাস বা প্রশ্নের ছবি থেকে লেখা
+        অংশ কপি করে প্রম্পটের সঙ্গে ব্যবহার করলে উত্তর আরও নির্ভুল হবে।
+      </p>
+
+      <p id="generator-message" class="generator-message" role="alert" hidden></p>
+
+      <button class="button primary" type="submit">প্রম্পট তৈরি করুন</button>
+    </form>
+
+    <article id="prompt-result" class="prompt-result" hidden>
+      <p class="eyebrow">কপি করার জন্য প্রস্তুত</p>
+      <h3>আপনার স্টাডি প্রম্পট</h3>
+      <pre id="generated-prompt"></pre>
+      <button id="copy-prompt" class="button secondary" type="button">
+        প্রম্পট কপি করুন
+      </button>
+      <p id="copy-message" class="copy-message" role="status" hidden></p>
+    </article>
+  </section>
+
+  <section
     id="learning-hub"
     class="section learning-hub container"
     aria-labelledby="learning-hub-title"
@@ -169,7 +281,7 @@
 
     <div class="learning-grid">
       <article class="learning-card">
-        <span class="learning-icon" aria-hidden="true">🧪</span>
+        <span class="learning-icon" aria-hidden="true">&#129514;</span>
         <h3>AI Integrator Bangla Lab</h3>
         <p>
           হাতে কলমে এআই ইন্টিগ্রেশন, প্র্যাকটিস ব্রিফ, এজেন্ট স্টুডিও ও
@@ -185,7 +297,7 @@
       </article>
 
       <article class="learning-card">
-        <span class="learning-icon" aria-hidden="true">🎬</span>
+        <span class="learning-icon" aria-hidden="true">&#127916;</span>
         <h3>AI Integrator Course</h3>
         <p>
           কাস্টম জিপিটি, এআই এজেন্ট, অটোমেশন, এপিআই ও বাস্তব প্রজেক্ট নিয়ে
@@ -201,7 +313,7 @@
       </article>
 
       <article class="learning-card">
-        <span class="learning-icon" aria-hidden="true">✍️</span>
+        <span class="learning-icon" aria-hidden="true">&#9997;&#65039;</span>
         <h3>AI Blog Posts</h3>
         <p>
           টেকটকস বাংলা ব্লগে এআই, প্রম্পট, টুলস, ক্যারিয়ার ও বাস্তব ব্যবহার
@@ -217,7 +329,7 @@
       </article>
 
       <article class="learning-card">
-        <span class="learning-icon" aria-hidden="true">📺</span>
+        <span class="learning-icon" aria-hidden="true">&#128250;</span>
         <h3>Digital Deep Dive YouTube</h3>
         <p>
           এআই, সাইবার সিকিউরিটি, ডেটা, ক্যারিয়ার ও ডিজিটাল স্কিল নিয়ে
@@ -233,7 +345,7 @@
       </article>
 
       <article class="learning-card">
-        <span class="learning-icon" aria-hidden="true">📘</span>
+        <span class="learning-icon" aria-hidden="true">&#128216;</span>
         <h3>Learning With Enam GitBook</h3>
         <p>
           ভিডিওর পাশাপাশি লিখিত গাইড, নোট, প্র্যাকটিস ম্যাটেরিয়াল ও শেখার
@@ -249,7 +361,7 @@
       </article>
 
       <article class="learning-card">
-        <span class="learning-icon" aria-hidden="true">🌐</span>
+        <span class="learning-icon" aria-hidden="true">&#127760;</span>
         <h3>Public Learning Portfolio</h3>
         <p>
           Enamul Haque এর বই, কোর্স, প্রজেক্ট, গিটহাব, ব্লগ ও পাবলিক
