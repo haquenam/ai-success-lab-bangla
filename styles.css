@@ -230,6 +230,35 @@ h2 {
   border: 1px solid var(--border);
 }
 
+.credibility-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.65rem;
+  margin-top: 0.55rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.credibility-label {
+  font-weight: 800;
+}
+
+.credibility-links a {
+  color: var(--primary-dark);
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: rgba(15, 63, 168, 0.3);
+  text-underline-offset: 0.18em;
+}
+
+.credibility-links a:hover,
+.credibility-links a:focus-visible {
+  color: var(--primary);
+  text-decoration-color: currentColor;
+  outline: none;
+}
+
 .language-panel,
 .hero-image-card,
 .detail-card,
@@ -712,6 +741,11 @@ h2 {
   .hero-actions .button {
     flex: 1 1 100%;
     text-align: center;
+  }
+
+  .credibility-links {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .section {
