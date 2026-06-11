@@ -1,14 +1,16 @@
-# AI Success Lab Bangla
+# AI Made Simple Bangla
 
-AI Success Lab Bangla helps Bangla speaking learners use AI for better exam preparation, career readiness, freelancing, English communication, portfolio building, and income growth.
+AI Made Simple Bangla is an open source Bangla AI help platform that makes AI easier to use for study, career preparation, freelancing, English communication, portfolio building, and income skill development.
 
 ## Project overview
+
+The repository name remains unchanged as `ai-success-lab-bangla`, while the visible public product name is AI Made Simple Bangla.
 
 Version 1 is a static, GitHub Pages-ready landing page built with only HTML, CSS, and JavaScript. The interface is primarily in Bangla and introduces the platform, AI assistance language selection, outcome-based goals, and core learning and career categories.
 
 ## Purpose
 
-The purpose of AI Success Lab Bangla is to help Bangla speaking learners around the world use AI more confidently for education, career growth, freelancing, English learning, and AI skill development. The platform focuses on practical prompts that can improve day-to-day results rather than abstract AI theory.
+The purpose of AI Made Simple Bangla is to help Bangla speaking learners around the world use AI more confidently for study, career preparation, freelancing, English communication, portfolio building, and income skill development. The platform focuses on practical prompts that can improve day-to-day results rather than abstract AI theory.
 
 ## Target audience
 
@@ -21,7 +23,7 @@ The purpose of AI Success Lab Bangla is to help Bangla speaking learners around 
 
 ## How the platform helps
 
-AI Success Lab Bangla is designed to make useful AI assistance easier for Bangla speaking users globally by:
+AI Made Simple Bangla is designed to make useful AI assistance easier for Bangla speaking users globally by:
 
 - Providing a familiar Bangla interface.
 - Letting users choose whether future AI assistance, instructions, and prompts should be generated in Bangla or English.
