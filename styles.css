@@ -196,31 +196,9 @@ h2 {
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  gap: 12px;
+  align-items: center;
   margin-top: 0.75rem;
-}
-
-.credibility-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.45rem;
-  color: var(--muted);
-  font-size: 0.8125rem;
-  font-weight: 700;
-}
-
-.credibility-links a {
-  color: var(--primary-dark);
-  text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.18em;
-}
-
-.credibility-links a:hover,
-.credibility-links a:focus-visible {
-  color: var(--primary);
-  outline: none;
 }
 
 .button,
@@ -238,6 +216,7 @@ h2 {
   min-height: 36px;
   padding: 0.48rem 0.85rem;
   font-size: 0.875rem;
+  white-space: nowrap;
   border-radius: 999px;
 }
 
@@ -733,7 +712,7 @@ h2 {
   }
 
   .hero-actions .button {
-    flex: 1 1 100%;
+    flex: 1 1 160px;
     text-align: center;
   }
 
