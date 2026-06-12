@@ -141,14 +141,14 @@
 }
 
 .nav-links {
-  gap: 0.25rem;
+  gap: 0.35rem;
   flex-wrap: nowrap;
 }
 
 .nav-links a {
   white-space: nowrap;
-  padding: 0.34rem 0.46rem;
-  line-height: 1.1;
+  padding: 0.38rem 0.52rem;
+  line-height: 1.15;
 }
 
 .nav-links a[href="#home"],
@@ -172,8 +172,8 @@
 .nav-links a[href="#ai-learning-generator"]::after,
 .nav-links a[href="#learning-hub"]::after,
 .nav-links a[href="#roadmap"]::after {
-  font-size: 0.82rem;
-  font-weight: 800;
+  font-size: clamp(1rem, 1.7vw, 1.25rem);
+  font-weight: 900;
 }
 
 .nav-links a[href="#home"]::after {
@@ -212,6 +212,20 @@
   content: "রোডম্যাপ";
 }
 
+@media (max-width: 1100px) {
+  .nav-links a[href="#home"]::after,
+  .nav-links a[href="#categories"]::after,
+  .nav-links a[href="#student-generator"]::after,
+  .nav-links a[href="#job-seeker-generator"]::after,
+  .nav-links a[href="#freelancer-generator"]::after,
+  .nav-links a[href="#english-generator"]::after,
+  .nav-links a[href="#ai-learning-generator"]::after,
+  .nav-links a[href="#learning-hub"]::after,
+  .nav-links a[href="#roadmap"]::after {
+    font-size: 0.98rem;
+  }
+}
+
 @media (max-width: 960px) {
   .nav-links {
     overflow-x: auto;
@@ -221,6 +235,18 @@
 @media (max-width: 720px) {
   .hero-copy::before {
     font-size: 0.78rem;
+  }
+
+  .nav-links a[href="#home"]::after,
+  .nav-links a[href="#categories"]::after,
+  .nav-links a[href="#student-generator"]::after,
+  .nav-links a[href="#job-seeker-generator"]::after,
+  .nav-links a[href="#freelancer-generator"]::after,
+  .nav-links a[href="#english-generator"]::after,
+  .nav-links a[href="#ai-learning-generator"]::after,
+  .nav-links a[href="#learning-hub"]::after,
+  .nav-links a[href="#roadmap"]::after {
+    font-size: 0.95rem;
   }
 
   .form-grid {
